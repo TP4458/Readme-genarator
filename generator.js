@@ -29,7 +29,7 @@ ${input.test}
 
 ## Questions
 Any questions regarding this project can be directed to:
-* Email: ${input.email}
+* Email: [${input.email}](${input.email})
 * GitHub [${input.gitName}](https://github.com/${input.gitName})
 
 ## License
