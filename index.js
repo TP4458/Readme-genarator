@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer")
-const fs = require("fs");
+import inquirer from "inquirer"
+import fs from "node:fs"
 import { generateReadme } from "./generator.js";
 import { questions } from "./userInput.js"
 
