@@ -28,7 +28,6 @@ const generateReadme = (input) => {
     ${input.test}
 
     ## Questions
-    ${input.questions}
     Any questions regarding this project can be directed to:
     * Email: ${input.email}
     * GitHub [${input.gitName}](https://github.com/${input.gitName})
