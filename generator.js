@@ -1,41 +1,41 @@
 const generateReadme = (input) => {
-    return `
-    # ${input.title}
+return `
+# ${input.title}
 
-    ## Description
-    ${input.description}
+## Description
+${input.description}
 
-    ${input.licenseBadge}
+${input.licenseBadge}
 
-    ## Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
-    * [License](#License)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+* [License](#License)
 
-    ## Installation
-    ${input.install}
+## Installation
+${input.install}
 
-    ## Usage
-    ${input.use}
+## Usage
+${input.use}
 
-    ## Contributing
-    ${input.contribute}
+## Contributing
+${input.contribute}
 
-    ## Tests
-    ${input.test}
+## Tests
+${input.test}
 
-    ## Questions
-    Any questions regarding this project can be directed to:
-    * Email: ${input.email}
-    * GitHub [${input.gitName}](https://github.com/${input.gitName})
+## Questions
+Any questions regarding this project can be directed to:
+* Email: ${input.email}
+* GitHub [${input.gitName}](https://github.com/${input.gitName})
 
-    ## License
-    Click on the badge below or near the top of this document, to find out more about the license for this product.
-    ${input.licenseBadge}
-    `
+## License
+Click on the badge below or near the top of this document, to find out more about the license for this product.
+${input.licenseBadge}
+`
 }
 
 export {generateReadme};
