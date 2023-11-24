@@ -12,7 +12,11 @@ function writeToFile(userInput) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+    const userInput = await inquirer.prompt(questions)
+    writeToFile(userInput)
+
+}
 
 // Function call to initialize app
 init();
