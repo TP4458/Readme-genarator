@@ -1,8 +1,8 @@
 
-# asd
+# valid name
 
 ## Description
-asd
+description
 
 MIT license
 
@@ -15,21 +15,21 @@ MIT license
 * [License](#License)
 
 ## Installation
-asd
+instrucion
 
 ## Usage
-asd
+usage
 
 ## Contributing
-undefined
+just me
 
 ## Tests
-asd
+testing
 
 ## Questions
 Any questions regarding this project can be directed to:
-* Email: asd
-* GitHub [asd](https://github.com/asd)
+* Email: [tp4458@gmail.com](tp4458@gmail.com)
+* GitHub [TP4458](https://github.com/TP4458)
 
 ## License
 Click on the badge below or near the top of this document, to find out more about the license for this product.

@@ -45,7 +45,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "constribute",
+        name: "contribute",
         message: "Enter the names of contributors:",
         validate: (answer) => {
             if (answer === "") {
@@ -79,7 +79,7 @@ const questions = [
     {
         type: "input",
         name: "gitName",
-        message: "Enter your GitHub username",
+        message: "Enter your GitHub username:",
         validate: (answer) => {
             if (answer === "") {
                 return console.log("Enter a valid GitHub username");
