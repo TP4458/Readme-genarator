@@ -5,7 +5,7 @@ const questions = [
         message: "Enter the name of your project:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter a valid title project:");
             }
         return true;
         }
@@ -16,7 +16,7 @@ const questions = [
         message: "Enter a project description:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter a valid project description:");
             }
         return true;
         }
@@ -27,7 +27,7 @@ const questions = [
         message: "Enter the installation instructions:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter valid installation instructions:");
             }
         return true;
         }
@@ -38,7 +38,7 @@ const questions = [
         message: "Enter the usage instructions:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter valid usage instructions");
             }
         return true;
         }
@@ -49,7 +49,7 @@ const questions = [
         message: "Enter the names of contributors:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter valid names of the contributors:");
             }
         return true;
         }
@@ -60,7 +60,7 @@ const questions = [
         message: "Enter the description of testing:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("enter valid testig description:");
             }
         return true;
         }
@@ -71,7 +71,7 @@ const questions = [
         message: "Enter your email address:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter a valid email address");
             }
         return true;
         }
@@ -82,7 +82,7 @@ const questions = [
         message: "Enter your GitHub username",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("");
+                return console.log("Enter a valid GitHub username");
             }
         return true;
         }
