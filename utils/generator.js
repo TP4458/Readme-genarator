@@ -33,8 +33,8 @@ Any questions regarding this project can be directed to:
 * GitHub [${input.gitName}](https://github.com/${input.gitName})
 
 ## License
-Click on the badge below or near the top of this document, to find out more about the license for this product.
-\n${input.generateBadge}
+This product is licensed with ${input.licenseBadge}. Please click on the badge below, or at the top of this document to find out more.
+\n ${input.generateBadge}
 `
 }
 
