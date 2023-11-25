@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer"
 import fs from "node:fs"
-import { generateReadme } from "./generator.js";
-import { questions } from "./userInput.js"
+import { generateReadme } from "./utils/generator.js";
+import { questions } from "./utils/userInput.js";
+import { generateBadge } from "./utils/badges.js"
 
 
 // TODO: Create a function to write README file
@@ -14,6 +15,7 @@ function writeToFile(userInput) {
 // TODO: Create a function to initialize app
 async function init() {
     const userInput = await inquirer.prompt(questions)
+    userInput.generateBadge = generateBadge(userInput.licenseBadge);
     writeToFile(userInput)
 
 }

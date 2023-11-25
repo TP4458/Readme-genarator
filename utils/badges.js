@@ -12,5 +12,9 @@ function generateBadge(licenseType) {
         return "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)";
     }  else if (licenseType === "The Unlicense") {
         return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
+    }   else{
+        return;
     }
 }
+
+export { generateBadge };

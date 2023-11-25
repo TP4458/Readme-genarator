@@ -5,7 +5,7 @@ return `
 ## Description
 ${input.description}
 
-${input.licenseBadge}
+${input.generateBadge}
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -34,9 +34,9 @@ Any questions regarding this project can be directed to:
 
 ## License
 Click on the badge below or near the top of this document, to find out more about the license for this product.
-${input.licenseBadge}
+\n${input.generateBadge}
 `
 }
 
-export {generateReadme};
+export { generateReadme };
 

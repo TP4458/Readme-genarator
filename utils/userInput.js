@@ -92,11 +92,11 @@ const questions = [
         name: "licenseBadge",
         message: "Select your product license type:",
         choices: [
-            "MIT license", 
-            "Apache License 2.0", 
-            "GNU General Public License v3.0",
+            "MIT License", 
+            "Apache 2.0 License", 
+            "GNU GPL v3.0",
             "Mozilla Public License 2.0",
-            "Common Development and Distribution License 1.0 (CDDL)",
+            "WTFPL",
             "The Unlicense"
         ]
     },
