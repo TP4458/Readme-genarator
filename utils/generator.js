@@ -8,12 +8,12 @@ ${input.description}
 ${input.generateBadge}
 
 ## Table of Contents
-* [Installation](##Installation)
-* [Usage](##Usage)
-* [Contributing](##Contributing)
-* [Tests](##Tests)
-* [Questions](##Questions)
-* [License](##License)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
 ## Installation
 ${input.install}
