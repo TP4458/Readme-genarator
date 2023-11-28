@@ -46,10 +46,10 @@ const questions = [
     {
         type: "input",
         name: "contribute",
-        message: "Enter the names of contributors:",
+        message: "Enter the contributions instructions:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("Enter valid names of the contributors:");
+                return console.log("Enter valid instructions for contributors:");
             }
         return true;
         }
@@ -57,10 +57,10 @@ const questions = [
     {
         type: "input",
         name: "test",
-        message: "Enter the description of testing:",
+        message: "Enter the testing instructions:",
         validate: (answer) => {
             if (answer === "") {
-                return console.log("enter valid testig description:");
+                return console.log("enter valid testig instructions:");
             }
         return true;
         }
