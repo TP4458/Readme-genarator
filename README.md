@@ -2,7 +2,26 @@
 
 ## Description
 
-This application uses the command line to dynamically create a professional README.md file. it uses the inquirer.js package to to display a series of promts and read and save user's input.
+This application uses the command line to dynamically create a professional README.md file. it uses the inquirer.js package to display a series of promts, read user's input, and produce a README.md file containing it.
+A new file will be created with each run of the application overwrtitting any previous files, and saved in generated-file folder.
+A sample readme file generated using this application can be viewed in the generated-file filder.
+
+## Product demonstration
+
+Because this application won't be deployed, please view the attached video demonstrating it's functionality.
+
+[Readme Generator Video Demo](https://drive.google.com/file/d/1uTkfHb9k6xFBJx45MzpU1-isSECszdsI/view?usp=sharing)
+
+![Alt text](image-1.png)
+
+## Installation instruction
+
+Download/clone the repository, extract files if necessary. Using your terminal navigate to application folder, and run npm install.
+
+## Usage Instructions
+
+After the application has been installed, run node index.js in your terminal. Answer the prompts on the screen, your answers will be the content of the generated readme file. All prompts require input and cannot be left blank.
+Once finished, navigate to generated-file folder to access your README.md file.
 
 ## Your Task
 

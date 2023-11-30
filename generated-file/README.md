@@ -1,10 +1,10 @@
 
-# 123
+# Project title
 
 ## Description
-123
+Project description
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,23 +15,23 @@
 * [License](#license)
 
 ## Installation
-123
+installation description
 
 ## Usage
-123
+use instructions
 
 ## Contributing
-123
+contribution instructions
 
 ## Tests
-123
+testing instructions
 
 ## Questions
 Any questions regarding this project can be directed to:
-* Email: [123](123)
-* GitHub [123](https://github.com/123)
+* Email: [tp4458@gmail.com](tp4458@gmail.com)
+* GitHub [TP4458](https://github.com/TP4458)
 
 ## License
-This product is licensed with GNU GPL v3.0. Please click on the badge below, or at the top of this document to find out more.
+This product is licensed with MIT License. Please click on the badge below, or at the top of this document to find out more.
 
- [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
