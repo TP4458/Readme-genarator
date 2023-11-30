@@ -14,9 +14,13 @@ function writeToFile(userInput) {
 
 // function will wait for questions to complete before initialising writeToFile.
 async function init() {
-    const userInput = await inquirer.prompt(questions)
-    userInput.generateBadge = generateBadge(userInput.licenseBadge);
-    writeToFile(userInput)
+    try {
+        const userInput = await inquirer.prompt(questions)
+        userInput.generateBadge = generateBadge(userInput.licenseBadge);
+        writeToFile(userInput)
+    } catch (error) {
+        throw error;
+    }
 }
 
 // Function call to initialize app
