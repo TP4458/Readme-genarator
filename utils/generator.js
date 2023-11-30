@@ -1,3 +1,4 @@
+//generate markup for the readme file and read content from userInput.js
 const generateReadme = (input) => {
 return `
 # ${input.title}

@@ -1,3 +1,4 @@
+//inquirer questions for the readme content.
 const questions = [
     {
         type: "input",

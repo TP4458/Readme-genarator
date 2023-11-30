@@ -1,3 +1,5 @@
+//reads licenseType input from userInput.js and produces appropriate badge.
+
 function generateBadge(licenseType) {
 
     if (licenseType === "MIT License") {
